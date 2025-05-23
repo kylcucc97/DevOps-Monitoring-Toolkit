@@ -1,24 +1,17 @@
-# DevOps Monitoring Toolkit
+# CI/CD Pipeline Demo
 
-A simple DevOps monitoring setup using Bash, Docker, Prometheus, and Grafana. This repo is designed to demonstrate basic infrastructure health checks and metrics visualization.
+A basic CI/CD pipeline using GitHub Actions to deploy a static website to GitHub Pages.
 
-## Features
-- Bash script for system health checks
-- Docker Compose setup for:
-  - Prometheus
-  - Node Exporter
-  - Grafana
-- Prometheus scraping node metrics every 15 seconds
+## What's Included
+- Static HTML site (`index.html`)
+- GitHub Actions workflow for automatic deployment
+- Push to `main` branch triggers build and deployment
 
-## How to Use
-1. Run `healthcheck.sh` to perform local checks
-2. Start the monitoring stack:
-   ```
-   docker-compose up -d
-   ```
-3. Access:
-   - Prometheus: http://localhost:9090
-   - Grafana: http://localhost:3000 (default login: admin / admin)
+## Setup Instructions
+1. Create a repository on GitHub
+2. Upload this project
+3. Enable GitHub Pages from the repo settings
+4. Push to `main` and watch it deploy
 
 ## Author
-Kyle Cucciardi – IT Specialist transitioning into DevOps Engineering
+[Your Name] – IT Specialist building DevOps pipelines
