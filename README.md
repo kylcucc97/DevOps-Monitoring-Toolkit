@@ -21,4 +21,4 @@ A simple DevOps monitoring setup using Bash, Docker, Prometheus, and Grafana. Th
    - Grafana: http://localhost:3000 (default login: admin / admin)
 
 ## Author
-[Your Name] – IT Specialist transitioning into DevOps Engineering
+Kyle Cucciardi – IT Specialist transitioning into DevOps Engineering
