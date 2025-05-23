@@ -14,4 +14,4 @@ A basic CI/CD pipeline using GitHub Actions to deploy a static website to GitHub
 4. Push to `main` and watch it deploy
 
 ## Author
-[Your Name] – IT Specialist building DevOps pipelines
+Kyle Cucciardi – IT Specialist building DevOps pipelines
